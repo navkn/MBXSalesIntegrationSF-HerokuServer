@@ -2,9 +2,10 @@
   "name": "project4",
   "version": "1.0.0",
   "description": "Using this as endpoint in my project4.sales users tries to share the opportunity records with external systems like this.So we use this to receive those records and acknowledge with a success response.",
-  "main": "index.js",
+  "main": "hello-world.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node hello-world.js"
   },
   "author": "",
   "license": "ISC",
