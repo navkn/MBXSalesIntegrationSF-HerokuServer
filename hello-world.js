@@ -30,6 +30,6 @@ app.get('/', (req, resp) => {
     resp.send(stored_data);
     
 });
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log('listening for requests on port 3000');
 });
